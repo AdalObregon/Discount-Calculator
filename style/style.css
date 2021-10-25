@@ -272,47 +272,51 @@ input[type=number] {
         position: fixed;
         left: 3%;
         width: 350px;
-        height: 660px;
+        height: 530px;
         top: 30px;
     }
     .tittle{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: -20px;
+        font-style: normal;
+        font-weight: bold;
     }
 
     .price{
-        left: 148px;
+        left: 140px;
         font-size: 27px;
-        top: 110px;
+        top: 90px;
+        font-style: normal;
+        font-weight: bold;
     }
     #InputPrice{
-        left: 70px;
-        top: 190px;
+        left: 50px;
+        top: 170px;
     }
     .Discount{
-        left: 118px;
+        left: 108px;
         font-size: 27px;
-        top: 230px;
+        top: 190px;
     }
     #DiscountPrice{
-        left: 70px;
-        top: 310px;
+        left: 50px;
+        top: 270px;
     }
     .result__Container{
-        left: 125px;
-        top: 370px;
+        left: 110px;
+        top: 330px;
     }
     .result__Button{
         left: 60px;
-        top: 540px;
+        top: 470px;
     }
     #icon__Price{
         left: 135px;
-        top: 199px;
+        top: 179px;
     }
     #icon__Discount{
         left: 135px;
-        top: 318px;
+        top: 279px;
 
     }
     .contact__text{
