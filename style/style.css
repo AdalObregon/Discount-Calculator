@@ -9,11 +9,17 @@
 .color3 {color: #8d355b;}
 .color4 {color: #c74b64;}
 .color5 {color: #ff7268;}
+
+/* rgb(254, 245, 237)
+rgb(211, 228, 205)
+rgb(173, 194, 169)
+rgb(153, 167, 153) */
+
 *{
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #d5e5f7;
+    background-color: rgb(173, 194, 169);
 }
 .tittle{
     display: flex;
@@ -35,10 +41,10 @@ body{
     margin-left: 30%;
 }
 .main__container{
-    background: rgba( 213, 229, 247, 0.35 );
+    background: rgba( 254, 245, 237, 1 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 11px );
-    -webkit-backdrop-filter: blur( 11px );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     position: fixed;
@@ -54,11 +60,11 @@ body{
     font-weight: bold;
     font-size: 33px;
     position: absolute;
-    left: 44%;
+    left: 34%;
     top: 140px;
 }
 #InputPrice{
-    background: #FAEAF5;
+    background: #99A799;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 13px;
     border: none;
@@ -85,7 +91,7 @@ body{
     top: 275px;
 }
 #DiscountPrice{
-    background: #FAEAF5;
+    background: #99A799;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 13px;
     border: none;
@@ -133,7 +139,7 @@ body{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #EBC836;
+    background: #F7D59C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 2;
     position: absolute;
@@ -145,7 +151,7 @@ body{
     width: 247px;
     height: 55px;
 
-    background: #4E9E1F;
+    background: #5E454B;
     border-radius: 51px;
 
     font-family: 'Poppins', sans-serif;
@@ -161,10 +167,10 @@ body{
 }
 /* Footer */
 .contact{
-    background: rgba( 255, 255, 255, 0.75 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.1 );
-    backdrop-filter: blur( 11px );
-    -webkit-backdrop-filter: blur( 11px );
+    background: rgba( 243, 240, 215, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     position: fixed; /* or absolute */
@@ -179,14 +185,14 @@ body{
 }
 .contact__gitgub{
     position: fixed; /* or absolute */
-    top: 93%;
+    top: 5%;
     left: 60%;
     width: 50px;
     height: 50px;
 }
 .contact__linkedin{
     position: fixed; /* or absolute */
-    top: 93%;
+    top: 5%;
     left: 64%;
     width: 50px;
     height: 50px;
@@ -195,7 +201,7 @@ body{
     width: 30px;
     height: 30px;
     position: fixed;
-    top: 95%;
+    top: 35%;
     left: 50%;
     background-color: #ff0000;
     height: 25px;
@@ -264,7 +270,7 @@ input[type=number] {
   }
 .result__Button:active {
 
-    box-shadow: 0 10px #105402;
+    box-shadow: 0 10px black;
     transform: translateY(1px);
   }
 
@@ -292,7 +298,7 @@ input[type=number] {
         top: 110px;
     }
     #InputPrice{
-        left: 60px;
+        left: 70px;
         top: 190px;
     }
     .Discount{
@@ -301,7 +307,7 @@ input[type=number] {
         top: 230px;
     }
     #DiscountPrice{
-        left: 60px;
+        left: 70px;
         top: 310px;
     }
     .result__Container{
