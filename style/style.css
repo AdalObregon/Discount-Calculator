@@ -71,7 +71,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
-    left: 21%;
+    left: 31%;
 
 }
 .Discount{
@@ -98,7 +98,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
-    left: 21%;
+    left: 31%;
 }
 #icon__Price{
     position: absolute;
@@ -292,7 +292,7 @@ input[type=number] {
         top: 110px;
     }
     #InputPrice{
-        left: 70px;
+        left: 60px;
         top: 190px;
     }
     .Discount{
@@ -301,7 +301,7 @@ input[type=number] {
         top: 230px;
     }
     #DiscountPrice{
-        left: 70px;
+        left: 60px;
         top: 310px;
     }
     .result__Container{
