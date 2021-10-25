@@ -281,9 +281,48 @@ input[type=number] {
         height: 660px;
         top: 30px;
     }
-    
+    .tittle{
+        font-size: 25px;
+        margin-top: -20px;
+    }
+
+    .price{
+        left: 148px;
+        font-size: 27px;
+        top: 110px;
+    }
+    #InputPrice{
+        left: 70px;
+        top: 190px;
+    }
+    .Discount{
+        left: 118px;
+        font-size: 27px;
+        top: 230px;
+    }
+    #DiscountPrice{
+        left: 70px;
+        top: 310px;
+    }
+    .result__Container{
+        left: 125px;
+        top: 370px;
+    }
+    .result__Button{
+        left: 60px;
+        top: 540px;
+    }
+    #icon__Price{
+        left: 135px;
+        top: 199px;
+    }
+    #icon__Discount{
+        left: 135px;
+        top: 318px;
+
+    }
     .contact__text{
-        position: fixed;
+        position: absolute;
         left: 10%;
     }
     .contact__gitgub{
@@ -305,29 +344,4 @@ input[type=number] {
         position: fixed;
         left: 45%;
     }
-    .price{
-        left: 148px;
-    }
-    #InputPrice{
-        left: 70px;
-    }
-    .Discount{
-        left: 118px;
-    }
-    #DiscountPrice{
-        left: 70px;
-    }
-    .result__Container{
-        left: 125px;
-    }
-    .result__Button{
-        left: 60px;
-    }
-    #icon__Price{
-        left: 135px;
-    }
-    #icon__Discount{
-        left: 135px;
-    }
-
 }
