@@ -184,14 +184,14 @@ body{
     text-align: center;
 }
 .contact__gitgub{
-    position: fixed; /* or absolute */
+    position: absolute; /* or absolute */
     top: 5%;
     left: 60%;
     width: 50px;
     height: 50px;
 }
 .contact__linkedin{
-    position: fixed; /* or absolute */
+    position: absolute; /* or absolute */
     top: 5%;
     left: 64%;
     width: 50px;
@@ -200,7 +200,7 @@ body{
 .heart__beat{
     width: 30px;
     height: 30px;
-    position: fixed;
+    position: absolute;
     top: 35%;
     left: 50%;
     background-color: #ff0000;
