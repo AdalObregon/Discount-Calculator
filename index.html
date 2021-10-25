@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./disscounts.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/51f8b6f51d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="main__container">
+        <div class="tittle">
+            <h2>Discount <br> Calculator</h2>
+        </div>
+        <form class="form__container">
+            <div>
+                <label for="InputPrice"><p class="price">Price</p></label>
+                <i class="fas fa-dollar-sign" id="icon__Price"></i>
+                <input id="InputPrice" type="number">
+            </div>
+            <div>
+                <label for="DiscountPrice" class="Discount"><p>Discount</p></label>
+                <i class="fas fa-percentage" id="icon__Discount"></i>
+                <input id="DiscountPrice" type="number">       
+            </div>
+            <div class="result__Container">
+                <p id="ResultP"></p>
+            </div>
+            <div>
+                <button type="button" onclick="onClickButtonPriceDiscount()" class="result__Button">Final Price</button>
+            </div>
+
+        </form>
+    </section>
+    <footer class="contact">
+        <div class="contact__message">
+            <p class="contact__text">MADE WITH &nbsp &nbsp  &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  BY ADAL</p>
+            <a href="https://github.com/AdalObregon" target="_blank"><img  class="contact__gitgub" src="./resources/social/github.png" alt="github logo"></a>
+            <a href="https://www.linkedin.com/in/adal-obregon/" target="_blank" ><img class="contact__linkedin" src="./resources/social/linkedin.png" alt="linkedin logo"></a>
+            <div class="heart__beat">
+    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
