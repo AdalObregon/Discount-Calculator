@@ -360,3 +360,88 @@ input[type=number] {
 
     }
 }
+@media only screen and (min-height: 637px){
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    .main__container{
+        position: fixed;
+        left: 8%;
+        width: 350px;
+        height: 560px;
+        top: 20px;
+    }
+    .tittle{
+        font-size: 20px;
+        margin-top: -20px;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .price{
+        left: 137px;
+        font-size: 27px;
+        top: 90px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    #InputPrice{
+        left: 50px;
+        top: 170px;
+    }
+    .Discount{
+        left: 108px;
+        font-size: 27px;
+        top: 210px;
+    }
+    #DiscountPrice{
+        left: 50px;
+        top: 290px;
+    }
+    .result__Container{
+        left: 110px;
+        top: 350px;
+    }
+    .result__Button{
+        left: 60px;
+        top: 500px;
+    }
+    #icon__Price{
+        left: 80px;
+        top: 179px;
+    }
+    #icon__Discount{
+        left: 80px;
+        top: 300px;
+
+    }
+    .contact__text{
+        position: absolute;
+        left: 10%;
+    }
+    .contact__gitgub{
+        position: absolute;
+        left: 78%;
+        width: 40px;
+        height: 40px;
+        top: 765px;
+        top: 10px;
+        margin-left: 5px;
+        
+    }
+    .contact__linkedin{
+        position: absolute;
+        left: 88%;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        margin-left: 4px;
+    }
+    .heart__beat{
+        position: absolute;
+        left: 41%;
+        top: 20px;
+
+    }
+}
+
