@@ -366,8 +366,8 @@ input[type=number] {
     }
     .main__container{
         position: fixed;
-        left: 6%;
-        width: 350px;
+        left: 5%;
+        width: 340px;
         height: 560px;
         top: 20px;
     }
