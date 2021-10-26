@@ -366,8 +366,8 @@ input[type=number] {
     }
     .main__container{
         position: fixed;
-        left: 5%;
-        width: 340px;
+        left: 8%;
+        width: 350px;
         height: 560px;
         top: 20px;
     }
@@ -386,8 +386,10 @@ input[type=number] {
         font-weight: bold;
     }
     #InputPrice{
-        left: 50px;
+        left: 70px;
         top: 170px;
+        width: 200px;
+        height: 37px;
     }
     .Discount{
         left: 108px;
@@ -395,16 +397,28 @@ input[type=number] {
         top: 210px;
     }
     #DiscountPrice{
-        left: 50px;
+        left: 70px;
         top: 290px;
+        width: 200px;
+        height: 37px;
     }
     .result__Container{
         left: 110px;
-        top: 350px;
+        top: 353px;
     }
     .result__Button{
         left: 60px;
         top: 500px;
+        font-size: 30px;
+    }
+    #ResultP{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        z-index: 3;
+        text-align: center;
+        line-height:70px;
     }
     #icon__Price{
         left: 80px;
@@ -412,7 +426,7 @@ input[type=number] {
     }
     #icon__Discount{
         left: 80px;
-        top: 300px;
+        top: 298px;
 
     }
     .contact__text{
@@ -444,4 +458,3 @@ input[type=number] {
 
     }
 }
-
