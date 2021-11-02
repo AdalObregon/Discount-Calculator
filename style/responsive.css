@@ -1,0 +1,183 @@
+/* Responsive */
+@media only screen and (min-width: 375px){
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    .main__container{
+        position: fixed;
+        left: 8%;
+        width: 350px;
+        height: 730px;
+        top: 30px;
+    }
+    .tittle{
+        font-size: 30px;
+        margin-top: -20px;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .price{
+        left: 137px;
+        font-size: 27px;
+        top: 190px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    #InputPrice{
+        left: 50px;
+        top: 270px;
+    }
+    .Discount{
+        left: 108px;
+        font-size: 27px;
+        top: 320px;
+    }
+    #DiscountPrice{
+        left: 50px;
+        top: 400px;
+    }
+    .result__Container{
+        left: 110px;
+        top: 480px;
+    }
+    .result__Button{
+        left: 60px;
+        top: 650px;
+    }
+    #icon__Price{
+        left: 80px;
+        top: 279px;
+    }
+    #icon__Discount{
+        left: 80px;
+        top: 410px;
+
+    }
+    .contact__text{
+        position: absolute;
+        left: 10%;
+    }
+    .contact__gitgub{
+        position: absolute;
+        left: 78%;
+        width: 40px;
+        height: 40px;
+        top: 765px;
+        top: 10px;
+        margin-left: 5px;
+        
+    }
+    .contact__linkedin{
+        position: absolute;
+        left: 88%;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        margin-left: 4px;
+    }
+    .heart__beat{
+        position: absolute;
+        left: 41%;
+        top: 20px;
+
+    }
+}
+@media only screen and (min-height: 637px){
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    .main__container{
+        position: fixed;
+        left: 8%;
+        width: 350px;
+        height: 560px;
+        top: 20px;
+    }
+    .tittle{
+        font-size: 20px;
+        margin-top: -20px;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .price{
+        left: 137px;
+        font-size: 27px;
+        top: 90px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    #InputPrice{
+        left: 70px;
+        top: 170px;
+        width: 200px;
+        height: 37px;
+    }
+    .Discount{
+        left: 108px;
+        font-size: 27px;
+        top: 210px;
+    }
+    #DiscountPrice{
+        left: 70px;
+        top: 290px;
+        width: 200px;
+        height: 37px;
+    }
+    .result__Container{
+        left: 110px;
+        top: 353px;
+    }
+    .result__Button{
+        left: 60px;
+        top: 500px;
+        font-size: 30px;
+    }
+    #ResultP{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        z-index: 3;
+        text-align: center;
+        line-height:70px;
+    }
+    #icon__Price{
+        left: 80px;
+        top: 179px;
+    }
+    #icon__Discount{
+        left: 80px;
+        top: 298px;
+
+    }
+    .contact__text{
+        position: absolute;
+        left: 10%;
+    }
+    .contact__gitgub{
+        position: absolute;
+        left: 78%;
+        width: 40px;
+        height: 40px;
+        top: 765px;
+        top: 10px;
+        margin-left: 5px;
+        
+    }
+    .contact__linkedin{
+        position: absolute;
+        left: 88%;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        margin-left: 4px;
+    }
+    .heart__beat{
+        position: absolute;
+        left: 41%;
+        top: 20px;
+
+    }
+}
