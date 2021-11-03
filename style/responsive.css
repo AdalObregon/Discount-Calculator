@@ -5,9 +5,9 @@
     }
     .main__container{
         position: absolute;
-        left: 4%;
-        width: 350px;
-        height: 730px;
+        left: 3%;
+        width: 250px;
+        height: 430px;
         top: 30px;
     }
     .tittle{
