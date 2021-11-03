@@ -1,4 +1,101 @@
 /* Responsive */
+@media only screen and (max-width: 766px){
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    .main__container{
+        position: fixed;
+        left: 5%;
+        width: 330px;
+        height: 565px;
+        top: 30px;
+        color: black;
+    }
+    .tittle{
+        font-size: 30px;
+        margin-top: -20px;
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .price{
+        left: 140px;
+        font-size: 25px;
+        top: 130px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    #InputPrice{
+        left: 70px;
+        top: 190px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        width: 200px;
+        height: 37px;
+    }
+    .Discount{
+        left: 115px;
+        font-size: 27px;
+        top: 210px;
+    }
+    #DiscountPrice{
+        left: 70px;
+        top: 280px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        width: 200px;
+        height: 37px;
+    }
+    .result__Container{
+        left: 110px;
+        top: 330px;
+    }
+    .result__Button{
+        left: 45px;
+        top: 480px;
+    }
+    #icon__Price{
+        left: 80px;
+        top: 195px;
+    }
+    #icon__Discount{
+        left: 80px;
+        top: 285px;
+    }
+    .contact__text{
+        position: absolute;
+        left: 11%;
+    }
+    .contact__gitgub{
+        position: absolute;
+        left: 78%;
+        width: 40px;
+        height: 40px;
+        top: 765px;
+        top: 10px;
+        margin-left: 5px;
+        
+    }
+    .contact__linkedin{
+        position: absolute;
+        left: 88%;
+        width: 40px;
+        height: 40px;
+        top: 10px;
+        margin-left: 4px;
+    }
+    .heart__beat{
+        position: absolute;
+        left: 46%;
+        top: 20px;
+
+    }
+}
 @media only screen and (max-width: 600px){
     body {
         font-family: 'Poppins', sans-serif;
@@ -102,8 +199,8 @@
     }
     .main__container{
         position: fixed;
-        left: 5%;
-        width: 350px;
+        left: 4%;
+        width: 345px;
         height: 560px;
         top: 20px;
     }
