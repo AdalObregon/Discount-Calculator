@@ -273,6 +273,7 @@
     .contact__text{
         position: absolute;
         left: 11%;
+        top: 9px;
     }
     .contact__gitgub{
         position: absolute;
@@ -280,7 +281,7 @@
         width: 40px;
         height: 40px;
         top: 765px;
-        top: 10px;
+        top: 9px;
         margin-left: 5px;
         
     }
@@ -289,7 +290,7 @@
         left: 88%;
         width: 40px;
         height: 40px;
-        top: 10px;
+        top: 9px;
         margin-left: 4px;
     }
     .heart__beat{
