@@ -5,7 +5,7 @@
     }
     .main__container{
         position: absolute;
-        left: 8%;
+        left: 7%;
         width: 350px;
         height: 730px;
         top: 30px;
@@ -27,6 +27,10 @@
     #InputPrice{
         left: 50px;
         top: 270px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
     }
     .Discount{
         left: 108px;
@@ -36,6 +40,10 @@
     #DiscountPrice{
         left: 50px;
         top: 400px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
     }
     .result__Container{
         left: 110px;
@@ -56,7 +64,7 @@
     }
     .contact__text{
         position: absolute;
-        left: 10%;
+        left: 11%;
     }
     .contact__gitgub{
         position: absolute;
