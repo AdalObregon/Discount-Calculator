@@ -121,6 +121,10 @@
         top: 170px;
         width: 200px;
         height: 37px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
     }
     .Discount{
         left: 108px;
@@ -132,6 +136,10 @@
         top: 290px;
         width: 200px;
         height: 37px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
     }
     .result__Container{
         left: 110px;
@@ -162,7 +170,7 @@
     }
     .contact__text{
         position: absolute;
-        left: 10%;
+        left: 11%;
     }
     .contact__gitgub{
         position: absolute;
