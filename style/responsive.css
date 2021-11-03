@@ -1,10 +1,10 @@
 /* Responsive */
-@media only screen and (min-width: 375px){
+@media only screen and (max-width: 400px){
     body {
         font-family: 'Poppins', sans-serif;
     }
     .main__container{
-        position: fixed;
+        position: absolute;
         left: 8%;
         width: 350px;
         height: 730px;
@@ -83,7 +83,7 @@
 
     }
 }
-@media only screen and (min-height: 637px){
+@media only screen and (max-height: 637px){
     body {
         font-family: 'Poppins', sans-serif;
     }
