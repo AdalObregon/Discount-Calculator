@@ -1,5 +1,5 @@
 /* Responsive */
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 350){
     body {
         font-family: 'Poppins', sans-serif;
     }
@@ -97,7 +97,7 @@
     }
     .main__container{
         position: fixed;
-        left: 8%;
+        left: 5%;
         width: 350px;
         height: 560px;
         top: 20px;
