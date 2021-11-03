@@ -5,9 +5,9 @@
     }
     .main__container{
         position: fixed;
-        left: 2%;
-        width: 270px;
-        height: 330px;
+        left: 3%;
+        width: 320px;
+        height: 530px;
         top: 30px;
     }
     .tittle{
@@ -26,12 +26,14 @@
         font-weight: bold;
     }
     #InputPrice{
-        left: 50px;
-        top: 200px;
+        left: 70px;
+        top: 190px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 25px;
+        width: 200px;
+        height: 37px;
     }
     .Discount{
         left: 108px;
@@ -39,28 +41,30 @@
         top: 230px;
     }
     #DiscountPrice{
-        left: 50px;
-        top: 310px;
+        left: 70px;
+        top: 300px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 25px;
+        width: 200px;
+        height: 37px;
     }
     .result__Container{
         left: 110px;
-        top: 370px;
+        top: 350px;
     }
     .result__Button{
         left: 60px;
-        top: 520px;
+        top: 490px;
     }
     #icon__Price{
         left: 80px;
-        top: 205px;
+        top: 195px;
     }
     #icon__Discount{
         left: 80px;
-        top: 318px;
+        top: 305px;
     }
     .contact__text{
         position: absolute;
