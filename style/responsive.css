@@ -91,7 +91,7 @@
 
     }
 }
-/* @media only screen and (max-height: 637px){
+@media only screen and (max-height: 637px){
     body {
         font-family: 'Poppins', sans-serif;
     }
@@ -195,4 +195,4 @@
         left: 42%;
         top: 20px;
     }
-} */
+}
