@@ -1,5 +1,5 @@
 /* Responsive */
-@media only screen and (max-width: 325){
+@media only screen and (max-width: 600px){
     body {
         font-family: 'Poppins', sans-serif;
     }
