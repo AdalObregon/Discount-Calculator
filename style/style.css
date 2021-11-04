@@ -125,17 +125,16 @@ body{
 .fa { transform: scale(4,2); }
 
 #ResultP{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 29px;
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 27px;
     z-index: 3;
     text-align: center;
-    line-height:70px;
+    line-height:90px;
 }
 .result__Container{
-    width: 130px;
-    height: 130px;
+    width: 145px;
+    height: 145px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -144,7 +143,7 @@ body{
     z-index: 2;
     position: absolute;
     left: 42%;
-    top: 67%;
+    top: 66%;
 }
 .result__Button{
     position: absolute;
