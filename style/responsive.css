@@ -280,7 +280,7 @@
         width: 40px;
         height: 40px;
         top: 765px;
-        top: 9px;
+        top: 8px;
         margin-left: 5px;
         
     }
@@ -289,12 +289,12 @@
         left: 88%;
         width: 40px;
         height: 40px;
-        top: 9px;
+        top: 8px;
         margin-left: 4px;
     }
     .heart__beat{
         position: absolute;
         left: 44%;
-        top: 20px;
+        top: 15px;
     }
 }
